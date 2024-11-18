@@ -1,1 +1,164 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Styling no Design: Elegância e Inovação</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset básico */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .container:hover {
+            transform: translateY(-5px);
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff6f61;
+            padding: 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #222;
+        }
+        .content {
+            padding: 40px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #ff6f61;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            color: #444;
+        }
+        p, ul {
+            margin-bottom: 15px;
+            font-weight: 300;
+            line-height: 1.8;
+        }
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        .references {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+            font-size: 0.9em;
+        }
+        /* Estilização Interativa */
+        .content h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: #ff6f61;
+            margin-top: 5px;
+            border-radius: 3px;
+        }
+        .container:hover footer {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            O Styling no Design
+        </header>
+        <nav>
+            <a href="#introducao">Introdução</a>
+            <a href="#historico">Histórico</a>
+            <a href="#exemplos">Exemplos</a>
+            <a href="#referencias">Referências</a>
+        </nav>
+        <div class="content">
+            <section id="introducao">
+                <h2>Introdução</h2>
+                <p>O movimento de styling no design emergiu como uma resposta às mudanças tecnológicas e culturais do início do século XX, marcando uma transformação significativa no design de produtos.</p>
+            </section>
+            <section id="historico">
+                <h2>Histórico e Características</h2>
+                <h3>Contexto Histórico</h3>
+                <p>O styling surgiu nos Estados Unidos durante a Grande Depressão, visando impulsionar o consumo por meio de produtos visualmente atraentes.</p>
+                <h3>Principais Características Estéticas</h3>
+                <ul>
+                    <li><strong>Aerodinâmica:</strong> Formas inspiradas na aviação e no automobilismo.</li>
+                    <li><strong>Uso de Novos Materiais:</strong> Plásticos, alumínio e cromo.</li>
+                    <li><strong>Cores Vibrantes:</strong> Paletas ousadas que rompiam com tons neutros.</li>
+                </ul>
+                <h3>Aspectos Filosóficos</h3>
+                <p>O styling enfatizava o design como um prazer visual, promovendo uma visão otimista do futuro.</p>
+            </section>
+            <section id="exemplos">
+                <h2>Exemplos e Influência</h2>
+                <h3>Obras Representativas</h3>
+                <p>Automóveis como o Chrysler Airflow e eletrodomésticos como os aspiradores Hoover são exemplos icônicos.</p>
+                <h3>Paralelo com a Smeg</h3>
+                <p>A Smeg exemplifica a influência do styling hoje, com eletrodomésticos que unem estética retrô a tecnologia moderna.</p>
+            </section>
+            <section id="referencias">
+                <h2>Referências Bibliográficas</h2>
+                <div class="references">
+                    <p>HALL, Peter. <em>The Age of Styling</em>. Nova York: Design Press, 2003.</p>
+                    <p>HESKETT, John. <em>Design: A Very Short Introduction</em>. Oxford: Oxford University Press, 2005.</p>
+                    <p>LOEWY, Raymond. <em>Never Leave Well Enough Alone</em>. Nova York: Johns Hopkins University Press, 2002.</p>
+                    <p>SPARKE, Penny. <em>An Introduction to Design and Culture: 1900 to the Present</em>. Londres: Routledge, 2013.</p>
+                    <p>DROSTE, Magdalena. <em>Bauhaus, 1919–1933</em>. Colônia: Taschen, 2002.</p>
+                    <p>CAPLAN, Ralph. <em>By Design</em>. Nova York: Fairchild Books, 2005.</p>
+                </div>
+            </section>
+        </div>
+        <footer>
+            &copy; 2024 História do Design. Todos os direitos reservados.
+        </footer>
+    </div>
+</body>
+</html>
